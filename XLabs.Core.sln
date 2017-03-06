@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLabs.Core", "src\XLabs.Core.csproj", "{486ABBD5-9E4D-4BD2-A6FB-82E0E3B5A163}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{DA31CA53-FDCB-400B-AB81-787448A601B6}"
+	ProjectSection(SolutionItems) = preProject
+		nuspec\XLabs.Core.nuspec = nuspec\XLabs.Core.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
