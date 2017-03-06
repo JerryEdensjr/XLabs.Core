@@ -19,11 +19,11 @@
   <files>
     <!-- Content Files -->
     <!-- Assemblies: PCL Profile 259 + Xamarin -->
-    <file src="..\src\XLabs.Core\bin\$configuration$\XLabs.Core.dll" target="lib\portable-net45+win8+wpa81+wp8+monoandroid+monotouch+xamarinios10+xamarinmac" />
-    <file src="..\src\XLabs.Core\bin\$configuration$\XLabs.Core.pdb" target="lib\portable-net45+win8+wpa81+wp8+monoandroid+monotouch+xamarinios10+xamarinmac" />
+    <file src="bin\$configuration$\XLabs.Core.dll" target="lib\portable-net45+win8+wpa81+wp8+monoandroid+monotouch+xamarinios10+xamarinmac" />
+    <file src="src\XLabs.Core\bin\$configuration$\XLabs.Core.pdb" target="lib\portable-net45+win8+wpa81+wp8+monoandroid+monotouch+xamarinios10+xamarinmac" />
 
     <!-- Assemblies: .NET Standard 1.0 -->
-    <file src="..\src\XLabs.Core\bin\$configuration$\XLabs.Core.dll" target="lib\netstandard1.0" />
-    <file src="..\src\XLabs.Core\bin\$configuration$\XLabs.Core.pdb" target="lib\netstandard1.0" />
+    <file src="bin\$configuration$\XLabs.Core.dll" target="lib\netstandard1.0" />
+    <file src=""bin\$configuration$\XLabs.Core.pdb" target="lib\netstandard1.0" />
   </files>
 </package>
